@@ -5,8 +5,8 @@ This repository contains a simple example project to help you get started with t
 ## Prerequisites
 
 * Python 3.8 or higher
-* Poetry (for dependency management)
-* Docker (for running the Restack services)
+* pip (Python package manager)
+*A dataset (modified_data.csv)
 
 ## Installation & Setup
 
