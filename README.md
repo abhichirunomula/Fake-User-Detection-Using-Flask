@@ -1,6 +1,7 @@
 # Fake Social Media Profile Detection 
 
-This repository contains a simple example project to help you get started with the **Restack AI SDK** integrated with **ElevenLabs**. It demonstrates how to set up a basic workflow using the Restack SDK and ElevenLabs functions like **Text to Speech** and **Voice Isolation**.
+This repository contains a machine-learning-based web application built using Flask and Random Forest Classifier to detect whether a social media profile is Real or Fake.
+It provides a simple web interface where users can input profile attributes, and the trained model predicts the authenticity of the profile.
 
 ## Prerequisites
 
