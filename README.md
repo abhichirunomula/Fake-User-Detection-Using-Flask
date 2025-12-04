@@ -6,7 +6,7 @@ This repository contains a simple example project to help you get started with t
 
 * Python 3.8 or higher
 * pip (Python package manager)
-*A dataset (modified_data.csv)
+* A dataset (modified_data.csv)
 
 ## Installation & Setup
 
