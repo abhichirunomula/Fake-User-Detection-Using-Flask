@@ -26,13 +26,15 @@ It uses a Random Forest Classifier trained on a custom dataset (modified_data.cs
 📝 Dynamically loads input fields based on dataset columns
 
 📂 Project Structure
-project/
-│── app.py                # Main Flask application
-│── modified_data.csv     # Dataset used for training
-│── templates/
-│     └── index.html      # Frontend UI
-│── static/               # (Optional) CSS/JS files
-│── README.md             # Documentation
+fake-profile-detection/
+├── app.py                   # Main Flask application
+├── modified_data.csv        # Dataset used for training the model
+├── templates/
+│   └── index.html           # Frontend UI for prediction
+├── static/                  # Optional CSS/JS assets
+│   └── (your styles/scripts)
+├── requirements.txt         # Dependencies (if included)
+└── README.md                # Documentation file
 
 🧠 Machine Learning Pipeline
 
