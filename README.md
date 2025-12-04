@@ -16,3 +16,22 @@ fake-profile-detection/
 ├── requirements.txt         # Dependencies (if included)
 └── README.md                # Documentation file
 ```
+5. How the System Works
+
+Load Dataset
+
+Split Features (X) and Labels (Y)
+
+Train/Test Split (80/20)
+
+Train Random Forest Classifier
+
+Evaluate using:
+
+Accuracy
+
+Confusion Matrix
+
+Classification Report
+
+Predict Real/Fake Profile using the trained model    
