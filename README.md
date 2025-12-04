@@ -25,7 +25,9 @@ It uses a Random Forest Classifier trained on a custom dataset (modified_data.cs
 
 📝 Dynamically loads input fields based on dataset columns
 
-📂 Project Structure
+## 📂 Project Structure
+
+```plaintext
 fake-profile-detection/
 ├── app.py                   # Main Flask application
 ├── modified_data.csv        # Dataset used for training the model
@@ -35,6 +37,8 @@ fake-profile-detection/
 │   └── (your styles/scripts)
 ├── requirements.txt         # Dependencies (if included)
 └── README.md                # Documentation file
+```
+
 
 🧠 Machine Learning Pipeline
 
