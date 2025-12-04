@@ -40,54 +40,39 @@ fake-profile-detection/
 ```
 
 
-🧠 Machine Learning Pipeline
+🧠 How It Works
+1️⃣ Data Preparation
 
-Data Loading
+Dataset loaded from modified_data.csv
 
-Reads modified_data.csv
+Features extracted as input (X)
 
-Splits into features (X) and label (Y)
+Labels (Y) define Real vs Fake profile
 
-Train-Test Split
+2️⃣ Model Training
 
-80% training, 20% testing
+Train-test split (80% training, 20% testing)
 
-Stratified to maintain class balance
+Random Forest Classifier with 100 trees
 
-Model Training
+Evaluates performance using:
 
-Uses Random Forest Classifier (100 trees)
+Accuracy
 
-Tuned for reliable binary classification
+Confusion Matrix
 
-Model Evaluation
+Classification Report
 
-Accuracy score
+3️⃣ Prediction Flow
 
-Confusion matrix
+User enters feature values into the web form
 
-Classification report (precision, recall, F1-score)
+Application creates a DataFrame from input
 
-Prediction Flow
+ML model predicts:
 
-User enters input values
+Real User
 
-Model predicts → Real User or Fake User
+Fake User
 
-Results displayed instantly on UI
-
-🖥️ Running the Application
-1️⃣ Install Dependencies
-pip install flask pandas scikit-learn
-
-
-Or use your requirements.txt when uploaded.
-
-2️⃣ Start the Flask Application
-python app.py
-
-3️⃣ Open Browser
-
-Visit:
-
-http://127.0.0.1:5000/
+Result displayed instantly in the UI
