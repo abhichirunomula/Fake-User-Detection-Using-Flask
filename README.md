@@ -24,6 +24,7 @@ It uses a Random Forest Classifier trained on a custom dataset (modified_data.cs
 🌐 Simple and intuitive Flask-based web interface
 
 📝 Dynamically loads input fields based on dataset columns
+
 📂 Project Structure
 project/
 │── app.py                # Main Flask application
