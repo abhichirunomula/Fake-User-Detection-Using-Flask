@@ -1,9 +1,9 @@
 # Fake-User-Detection-Using-Flask
-🕵️‍♂️ Fake Social Media Profile Detection
+1. Fake Social Media Profile Detection
 
 A Machine Learning-powered Flask web application that predicts whether a social media profile is Real or Fake based on user-provided input features.
 
-🚀 Overview
+2. Overview
 
 This project aims to detect fake user accounts commonly found on online social platforms. Using machine learning techniques and a simple web interface, the system classifies user profiles into:
 
@@ -13,7 +13,7 @@ Fake User
 
 It uses a Random Forest Classifier trained on a custom dataset (modified_data.csv) and provides prediction results along with key model evaluation metrics.
 
-✨ Features
+3. Features
 
 🔍 Detects Fake vs. Real user profiles
 
@@ -25,7 +25,7 @@ It uses a Random Forest Classifier trained on a custom dataset (modified_data.cs
 
 📝 Dynamically loads input fields based on dataset columns
 
-## 📂 Project Structure
+4. 📂 Project Structure
 
 ```plaintext
 fake-profile-detection/
@@ -40,7 +40,7 @@ fake-profile-detection/
 ```
 
 
-🧠 How It Works
+5. How It Works
 1️⃣ Data Preparation
 
 Dataset loaded from modified_data.csv
@@ -77,7 +77,7 @@ Fake User
 
 Result displayed instantly in the UI
 
-🛠️ Technologies Used
+6. Technologies Used
 
 Python 3
 
