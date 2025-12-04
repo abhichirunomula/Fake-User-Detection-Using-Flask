@@ -76,3 +76,15 @@ Real User
 Fake User
 
 Result displayed instantly in the UI
+
+🛠️ Technologies Used
+
+Python 3
+
+Flask
+
+Pandas
+
+Scikit-Learn
+
+HTML / CSS / Bootstrap
